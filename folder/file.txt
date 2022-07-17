@@ -1,0 +1,8 @@
+# r - чтение
+# w - запись
+# a - дозапись
+
+
+file_path = r'folder\file.txt'
+with open(file_path, 'a') as f:
+f.write('123\n')
